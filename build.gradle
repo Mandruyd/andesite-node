@@ -21,8 +21,8 @@ ext {
     jdaNasVersion =         '1.1.0'
     jsr305Version =         '3.0.2'
     koeVersion =            '454cfec'
-    lavaplayerVersion =     '1.3.21'
-    lavadspVersion =        '0.5.2'
+    lavaplayerVersion =     '1.3.23'
+    lavadspVersion =        '647e601'
     logbackVersion =        '1.2.3'
     magmaVersion =          '0.10.4'
     nativeLoaderVersion =   '0.3.0' 
@@ -62,7 +62,7 @@ dependencies {
     compile "com.sedmelluq:lavaplayer:$lavaplayerVersion"
 
     //Audio filters
-    compile "com.github.natanbc:lavadsp:$lavadspVersion"
+    compile "com.github.Mandruyd:lavadsp:$lavadspVersion"
     //override the native loader version lavadsp uses
     compile "com.github.natanbc:native-loader:$nativeLoaderVersion"
 
