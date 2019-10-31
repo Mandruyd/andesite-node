@@ -49,7 +49,7 @@ dependencies {
     api "com.sedmelluq:lavaplayer:$lavaplayerVersion"
 
     //Audio filters
-    api "com.github.Mandruyd:lavadsp:$lavadspVersion"
+    api "com.github.Mandruyd:lavadsp:647e60187d"
     
     //Singyeong connection support
     api("com.github.singyeong:java-client:$singyeongVersion") {
